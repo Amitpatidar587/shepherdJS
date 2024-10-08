@@ -5,7 +5,7 @@ import Header from "./Header";
 
 export default function ColorfulUI() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const { setIsTourActive ,isDarkMode ,setIsActiveComponent } = useTour();
+  const { isDarkMode ,setIsActiveComponent } = useTour();
   setIsActiveComponent('home')
   
   return (

@@ -10,15 +10,14 @@
 
 
 .shepherd-arrow:before {
-  background: #dcd9d9 ;
+  background: #f8ebf9 ;
   content: "";
   transform: rotate(45deg);
 }
 
 .custom-class {
   border: white;
-  background: #dcd9d9;
-
+  background: #f8ebf9;
   box-shadow: 2px 2px 10px black;
   margin: 10px;
 }

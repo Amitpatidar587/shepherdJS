@@ -46,9 +46,7 @@ export default function Header() {
             <NavLink href="/contact" icon={<Mail className="mr-1" />}>
               Contact
             </NavLink>
-            <NavLink href="#" icon={<File className="mr-1" />}>
-              <button onClick={() => setIsTourActive(true)}>Intro</button>
-            </NavLink>
+            
           </div>
           <div className="flex items-center ">
             <button
@@ -84,9 +82,7 @@ export default function Header() {
             <NavLink href="/contact" icon={<Mail className="mr-2" />} mobile>
               Contact
             </NavLink>
-            <NavLink href="#" icon={<File className="mr-2" />}  mobile>
-              <button onClick={() => setIsTourActive(true)}>Intro</button>
-            </NavLink>
+           
           </div>
         )}
       </header>
